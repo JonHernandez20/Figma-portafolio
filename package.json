@@ -1,0 +1,12 @@
+{
+  "name": "figma-portafolio",
+  "version": "1.0.0",
+  "description": "Este proyecto lo tome de Figma, una aplicación de diseño para realizar todo tipo de productos de diseño.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jonathan Hernandez <pgr.gni.20@gmail.com>",
+  "license": "ISC"
+}
