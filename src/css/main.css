@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --white: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+/* header */
+.container__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-image: url('../img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+}
+
+.header__nav {
+    position: absolute;
+    width: 25%;
+    height: 40px;
+    top: 20px;
+    right: 160px;
+}
+
+.nav__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__name {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    border-radius: 24px;
+    border-bottom: 1px solid var(--white);
+    border-top: 1px solid var(--white);
+}
+
+.container__name p:nth-child(1) {
+    font-size: 52px;
+}
+
+.container__name p:nth-child(2) {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.container__img {
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    bottom: -50px;
+    left: 45%;
+}
+
+.container__img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid var(--white);
+}
