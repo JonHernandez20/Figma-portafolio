@@ -5,10 +5,19 @@
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Nunito', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }
 
 :root {
     --white: #fff;
+    --yellow: #DDB200;
+    --brown: #4E3D04;
+    --blue: #3895EA; 
+    --skyWork: #8ABFF0;
+    --letterWork: #A19292;
+    --blueContact: #3B668E;
+    --bgrFooter: #03182B;
+    --bgrWorks: #F2F2F2;
 }
 
 li {
@@ -76,4 +85,20 @@ li {
     width: 100%;
     border-radius: 50%;
     border: 5px solid var(--white);
+}
+
+/* acerca de */
+
+.container__acercaDe {
+    width: 50%;
+    text-align: center;
+    margin: 80px auto 40px;
+    /* margin-top: 80px; */
+}
+
+.container__acercaDe p:first-child {
+    color: var(--yellow);
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 16px 0;
 }
